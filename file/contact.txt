@@ -1,0 +1,16 @@
+Name=Madhukar BS;
+Address=abc st, San Jose;
+State=California;
+Country=USA
+PIN=95110;
+E-Mail=bsmadhukar@ymail.com;
+=;
+=;
+=;
+=;
+Name=Sreekar;
+Address=BTM Layout;
+State=Karnataka;
+Country=India
+PIN=583101;
+E-Mail=sreekar@gmail.com;
