@@ -25,7 +25,7 @@ $authFile = "file/auth.txt";
 /* }
  } */
 //fclose($file);
-$dbc = mysqli_connect("cmpe272.c7heilvdo1fe.us-east-1.rds.amazonaws.com:3306", "root", "bsrihari09", "cmpe272");
+$dbc = mysqli_connect();
 $query = "select id, username, first_name, last_name, email_address, phone_number,home_phone, address, is_admin
 from visitor where username = '$uId' and password='$pwd'";
 $result = mysqli_query($dbc, $query);
