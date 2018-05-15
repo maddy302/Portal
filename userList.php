@@ -61,7 +61,7 @@ if(!empty($search_phone)){
 <?php
 //if(isset($_POST['search_user_name'])||isset($_POST['search_email'])||isset($_POST['search_phone'])){
 	if(true){
-$dbc = mysqli_connect("cmpe272.c7heilvdo1fe.us-east-1.rds.amazonaws.com:3306", "root", "bsrihari09", "cmpe272");
+$dbc = mysqli_connect();
 $query_where = $query_where." order by id";
 $result = mysqli_query($dbc, $query_where);
 $i = "0";
