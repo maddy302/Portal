@@ -13,7 +13,7 @@ Event Page
 <body>
 <div class="container">
 <?php 
-$dbc = mysqli_connect("cmpe272.c7heilvdo1fe.us-east-1.rds.amazonaws.com:3306", "root", "bsrihari09", "cmpe272");
+$dbc = mysqli_connect();
 $eventid = $_GET['eventid'];
 $select_event = "select * from event where eventid='$eventid'";
 $result = mysqli_query($dbc, $select_event);
