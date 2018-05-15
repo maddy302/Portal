@@ -61,7 +61,7 @@ else{
     $authInfo = $email.','.$password.','.$name."\n";
     fwrite($authFile, $authInfo);
     fclose($authFile); */
-    $dbc = mysqli_connect("cmpe272.c7heilvdo1fe.us-east-1.rds.amazonaws.com:3306", "root", "bsrihari09", "cmpe272")
+    $dbc = mysqli_connect()
     or die("Error Connecting to SQL Database");
     $get_id = "select max(id) + 1 as id from visitor";
     $idMax = mysqli_query($dbc,$get_id);
