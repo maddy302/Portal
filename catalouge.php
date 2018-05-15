@@ -14,7 +14,7 @@ include 'header.php';
 		</h6>
 		
 <?php
-$dbc = mysqli_connect("cmpe272.c7heilvdo1fe.us-east-1.rds.amazonaws.com:3306", "root", "bsrihari09", "cmpe272");
+$dbc = mysqli_connect();
 $select_events = "select * from event";
 $result = mysqli_query($dbc, $select_events);
 $length = "2";
